@@ -16,5 +16,12 @@ namespace SAT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Devolver devolver = new Devolver();
+            this.Hide();
+            devolver.Show();
+        }
     }
 }

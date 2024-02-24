@@ -16,5 +16,13 @@ namespace SAT
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Retirada retirada = new Retirada();
+            this.Hide();
+            retirada.Show();
+
+        }
     }
 }

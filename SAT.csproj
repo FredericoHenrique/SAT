@@ -95,6 +95,9 @@
     <Compile Include="Retirada.Designer.cs">
       <DependentUpon>Retirada.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Estoque.resx">
+      <DependentUpon>Estoque.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +110,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Retirada.resx">
+      <DependentUpon>Retirada.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="BdsatDataSet.xsc">
       <DependentUpon>BdsatDataSet.xsd</DependentUpon>
     </None>
