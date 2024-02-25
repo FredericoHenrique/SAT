@@ -28,33 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEntrar = new System.Windows.Forms.Button();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblNumPol = new System.Windows.Forms.Label();
+            this.txbNumPol = new System.Windows.Forms.TextBox();
+            this.lblNomFun = new System.Windows.Forms.Label();
+            this.txbNomFun = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnEntrar
             // 
-            this.button1.Location = new System.Drawing.Point(328, 367);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Entrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnEntrar.BackColor = System.Drawing.SystemColors.Window;
+            this.btnEntrar.Location = new System.Drawing.Point(237, 262);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(96, 23);
+            this.btnEntrar.TabIndex = 0;
+            this.btnEntrar.Text = "ENTRAR\r\n";
+            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Location = new System.Drawing.Point(224, 28);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(142, 13);
+            this.lblTitulo.TabIndex = 1;
+            this.lblTitulo.Text = "SAT - CORPO DA GUARDA\r\n";
+            // 
+            // lblNumPol
+            // 
+            this.lblNumPol.AutoSize = true;
+            this.lblNumPol.Location = new System.Drawing.Point(238, 114);
+            this.lblNumPol.Name = "lblNumPol";
+            this.lblNumPol.Size = new System.Drawing.Size(99, 13);
+            this.lblNumPol.TabIndex = 2;
+            this.lblNumPol.Text = "NUMERO POLICIA\r\n";
+            // 
+            // txbNumPol
+            // 
+            this.txbNumPol.Location = new System.Drawing.Point(237, 130);
+            this.txbNumPol.Name = "txbNumPol";
+            this.txbNumPol.Size = new System.Drawing.Size(100, 20);
+            this.txbNumPol.TabIndex = 3;
+            this.txbNumPol.TextChanged += new System.EventHandler(this.txbNumPol_TextChanged);
+            // 
+            // lblNomFun
+            // 
+            this.lblNomFun.AutoSize = true;
+            this.lblNomFun.Location = new System.Drawing.Point(234, 200);
+            this.lblNomFun.Name = "lblNomFun";
+            this.lblNomFun.Size = new System.Drawing.Size(103, 13);
+            this.lblNomFun.TabIndex = 4;
+            this.lblNomFun.Text = "NOME FUNCIONAL";
+            // 
+            // txbNomFun
+            // 
+            this.txbNomFun.Location = new System.Drawing.Point(215, 216);
+            this.txbNomFun.Name = "txbNomFun";
+            this.txbNomFun.Size = new System.Drawing.Size(139, 20);
+            this.txbNomFun.TabIndex = 5;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(584, 383);
+            this.Controls.Add(this.txbNomFun);
+            this.Controls.Add(this.lblNomFun);
+            this.Controls.Add(this.txbNumPol);
+            this.Controls.Add(this.lblNumPol);
+            this.Controls.Add(this.lblTitulo);
+            this.Controls.Add(this.btnEntrar);
             this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEntrar;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Label lblNumPol;
+        private System.Windows.Forms.TextBox txbNumPol;
+        private System.Windows.Forms.Label lblNomFun;
+        private System.Windows.Forms.TextBox txbNomFun;
     }
 }

@@ -17,11 +17,24 @@ namespace SAT
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEntrar_Click(object sender, EventArgs e)
         {
+            CadastroController cad = new CadastroController(txbNumPol.Text, txbNomFun.Text);
+            MessageBox.Show(cad.mensagem);
+
             Estoque estoque = new Estoque();
             this.Hide();
             estoque.Show();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbNumPol_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
