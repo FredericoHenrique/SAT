@@ -34,7 +34,6 @@
             this.txbNumPol = new System.Windows.Forms.TextBox();
             this.lblNomFun = new System.Windows.Forms.Label();
             this.txbNomFun = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEntrar
@@ -62,9 +61,9 @@
             this.lblNumPol.AutoSize = true;
             this.lblNumPol.Location = new System.Drawing.Point(238, 114);
             this.lblNumPol.Name = "lblNumPol";
-            this.lblNumPol.Size = new System.Drawing.Size(92, 13);
+            this.lblNumPol.Size = new System.Drawing.Size(99, 13);
             this.lblNumPol.TabIndex = 2;
-            this.lblNumPol.Text = "NUMERO POLICI";
+            this.lblNumPol.Text = "NUMERO POLICIA";
             this.lblNumPol.Click += new System.EventHandler(this.lblNumPol_Click);
             // 
             // txbNumPol
@@ -91,22 +90,11 @@
             this.txbNomFun.Size = new System.Drawing.Size(139, 20);
             this.txbNomFun.TabIndex = 5;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(65, 314);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "TEST";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 383);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.txbNomFun);
             this.Controls.Add(this.lblNomFun);
             this.Controls.Add(this.txbNumPol);
@@ -129,6 +117,5 @@
         private System.Windows.Forms.TextBox txbNumPol;
         private System.Windows.Forms.Label lblNomFun;
         private System.Windows.Forms.TextBox txbNomFun;
-        private System.Windows.Forms.Button button1;
     }
 }
