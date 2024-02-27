@@ -62,9 +62,10 @@
             this.lblNumPol.AutoSize = true;
             this.lblNumPol.Location = new System.Drawing.Point(238, 114);
             this.lblNumPol.Name = "lblNumPol";
-            this.lblNumPol.Size = new System.Drawing.Size(99, 13);
+            this.lblNumPol.Size = new System.Drawing.Size(92, 13);
             this.lblNumPol.TabIndex = 2;
-            this.lblNumPol.Text = "NUMERO POLICIA\r\n";
+            this.lblNumPol.Text = "NUMERO POLICI";
+            this.lblNumPol.Click += new System.EventHandler(this.lblNumPol_Click);
             // 
             // txbNumPol
             // 
