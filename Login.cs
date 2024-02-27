@@ -36,5 +36,10 @@ namespace SAT
         {
 
         }
+
+        private void lblNumPol_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
