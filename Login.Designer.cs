@@ -77,7 +77,7 @@
             // lblNomFun
             // 
             this.lblNomFun.AutoSize = true;
-            this.lblNomFun.Location = new System.Drawing.Point(234, 200);
+            this.lblNomFun.Location = new System.Drawing.Point(234, 173);
             this.lblNomFun.Name = "lblNomFun";
             this.lblNomFun.Size = new System.Drawing.Size(103, 13);
             this.lblNomFun.TabIndex = 4;
@@ -85,7 +85,7 @@
             // 
             // txbNomFun
             // 
-            this.txbNomFun.Location = new System.Drawing.Point(215, 216);
+            this.txbNomFun.Location = new System.Drawing.Point(215, 189);
             this.txbNomFun.Name = "txbNomFun";
             this.txbNomFun.Size = new System.Drawing.Size(139, 20);
             this.txbNomFun.TabIndex = 5;
