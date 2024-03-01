@@ -59,7 +59,7 @@
             // lblNumPol
             // 
             this.lblNumPol.AutoSize = true;
-            this.lblNumPol.Location = new System.Drawing.Point(238, 114);
+            this.lblNumPol.Location = new System.Drawing.Point(238, 103);
             this.lblNumPol.Name = "lblNumPol";
             this.lblNumPol.Size = new System.Drawing.Size(99, 13);
             this.lblNumPol.TabIndex = 2;
@@ -68,9 +68,9 @@
             // 
             // txbNumPol
             // 
-            this.txbNumPol.Location = new System.Drawing.Point(237, 130);
+            this.txbNumPol.Location = new System.Drawing.Point(215, 119);
             this.txbNumPol.Name = "txbNumPol";
-            this.txbNumPol.Size = new System.Drawing.Size(100, 20);
+            this.txbNumPol.Size = new System.Drawing.Size(138, 20);
             this.txbNumPol.TabIndex = 3;
             this.txbNumPol.TextChanged += new System.EventHandler(this.txbNumPol_TextChanged);
             // 
@@ -87,7 +87,7 @@
             // 
             this.txbNomFun.Location = new System.Drawing.Point(215, 189);
             this.txbNomFun.Name = "txbNomFun";
-            this.txbNomFun.Size = new System.Drawing.Size(139, 20);
+            this.txbNomFun.Size = new System.Drawing.Size(138, 20);
             this.txbNomFun.TabIndex = 5;
             // 
             // Login

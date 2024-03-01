@@ -150,6 +150,9 @@
     <Compile Include="Retirar.Designer.cs">
       <DependentUpon>Retirar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Devolver.resx">
+      <DependentUpon>Devolver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estoque.resx">
       <DependentUpon>Estoque.cs</DependentUpon>
     </EmbeddedResource>

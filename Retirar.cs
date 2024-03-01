@@ -23,5 +23,28 @@ namespace SAT
             this.Hide();
             devolver.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Estoque estoque = new Estoque();
+            this.Hide();
+            estoque.Show();
+        }
     }
 }
