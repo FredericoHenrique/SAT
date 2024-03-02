@@ -34,10 +34,10 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Equipamentos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NumSerie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,13 +90,29 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column4});
+            this.Equipamentos,
+            this.NumSerie,
+            this.Column1});
             this.dataGridView1.Location = new System.Drawing.Point(12, 48);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(587, 407);
             this.dataGridView1.TabIndex = 7;
+            // 
+            // Equipamentos
+            // 
+            this.Equipamentos.HeaderText = "Equipamentos";
+            this.Equipamentos.Name = "Equipamentos";
+            this.Equipamentos.ReadOnly = true;
+            // 
+            // NumSerie
+            // 
+            this.NumSerie.HeaderText = "Nº De Serie";
+            this.NumSerie.Name = "NumSerie";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Retirar";
+            this.Column1.Name = "Column1";
             // 
             // button3
             // 
@@ -107,21 +123,6 @@
             this.button3.Text = "Voltar";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.Name = "Column2";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Column4";
-            this.Column4.Name = "Column4";
             // 
             // Retirada
             // 
@@ -151,9 +152,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Equipamentos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NumSerie;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
     }
 }

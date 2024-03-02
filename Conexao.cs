@@ -13,7 +13,7 @@ namespace SAT
     
         public Conexao()
         {
-            con.ConnectionString = "Data Source = LEGION5I\\SQLEXPRESS; Initial Catalog = test; Integrated Security = True; Encrypt = False";
+            con.ConnectionString = "Data Source = DESKTOP-S4PV3JU\\SQLEXPRESS01; Initial Catalog = test; Integrated Security = True; Encrypt = False";
         }
 
         public SqlConnection conectar()
