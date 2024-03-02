@@ -19,9 +19,9 @@ namespace SAT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Devolver devolver = new Devolver();
+            Estoque estoque = new Estoque();
             this.Hide();
-            devolver.Show();
+            estoque.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
