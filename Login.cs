@@ -25,9 +25,6 @@ namespace SAT
                 return;
             }
 
-            CadastroController cad = new CadastroController(txbNumPol.Text, txbNomFun.Text);
-            MessageBox.Show(cad.mensagem);
-
             Estoque estoque = new Estoque();
             this.Hide();
             estoque.Show();
@@ -40,7 +37,14 @@ namespace SAT
 
         private void txbNumPol_TextChanged(object sender, EventArgs e)
         {
-            
+            if (txbNumPol.Text == "")
+            {
+                return;
+            }
+
+            LoginController log = new LoginController();
+            string nomeRetornado = log.retornaNomeFuncional(txbNumPol.Text);
+            lblNomFun.Text = nomeRetornado;
         }
 
         private void lblNumPol_Click(object sender, EventArgs e)

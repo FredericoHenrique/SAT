@@ -33,7 +33,6 @@
             this.lblNumPol = new System.Windows.Forms.Label();
             this.txbNumPol = new System.Windows.Forms.TextBox();
             this.lblNomFun = new System.Windows.Forms.Label();
-            this.txbNomFun = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnEntrar
@@ -77,25 +76,17 @@
             // lblNomFun
             // 
             this.lblNomFun.AutoSize = true;
-            this.lblNomFun.Location = new System.Drawing.Point(234, 173);
+            this.lblNomFun.Location = new System.Drawing.Point(238, 142);
             this.lblNomFun.Name = "lblNomFun";
             this.lblNomFun.Size = new System.Drawing.Size(103, 13);
             this.lblNomFun.TabIndex = 4;
             this.lblNomFun.Text = "NOME FUNCIONAL";
-            // 
-            // txbNomFun
-            // 
-            this.txbNomFun.Location = new System.Drawing.Point(215, 189);
-            this.txbNomFun.Name = "txbNomFun";
-            this.txbNomFun.Size = new System.Drawing.Size(138, 20);
-            this.txbNomFun.TabIndex = 5;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 383);
-            this.Controls.Add(this.txbNomFun);
             this.Controls.Add(this.lblNomFun);
             this.Controls.Add(this.txbNumPol);
             this.Controls.Add(this.lblNumPol);
@@ -116,6 +107,5 @@
         private System.Windows.Forms.Label lblNumPol;
         private System.Windows.Forms.TextBox txbNumPol;
         private System.Windows.Forms.Label lblNomFun;
-        private System.Windows.Forms.TextBox txbNomFun;
     }
 }
